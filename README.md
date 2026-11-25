@@ -8,7 +8,7 @@
 # 1. 获取代码
 
 ```bash
-git clone https://github.com/<用户名>/QoE-SPFRL.git
+git clone https://github.com/jiu-dan/QoE-SPFRL.git
 cd QoE-SPFRL
 ```
 
