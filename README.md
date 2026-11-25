@@ -1,5 +1,4 @@
 # QoE-SPFRL
-# QoE-SPFRL
 
 本仓库提供 QoE-SPFRL 的训练与评估代码，用于研究面向用户体验质量（QoE）的多媒体服务缓存、任务卸载与资源分配。
 
@@ -114,7 +113,3 @@ tensorboard --logdir runs/qoe_spfrl_seed42/tensorboard
 - `best_checkpoint.txt`：训练期间评估 QoE 最高的检查点路径。
 - `tensorboard/`：TensorBoard 日志。
 
-## 实验复现
-
-当前默认配置见 `config.py`。复现论文实验时，应使用论文对应的参数、
-随机种子及依赖版本，并在多个随机种子下重复实验，统计结果的均值和标准差。
